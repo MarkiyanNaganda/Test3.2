@@ -1,0 +1,57 @@
+@charset "UTF-8";
+ul {
+  list-style: none;
+  /*убираем маркеры списка*/
+  margin: 0;
+  /*убираем отступы*/
+  padding-left: 0;
+  /*убираем отступы*/
+  margin-top: 25px;
+  /*делаем отступ сверху*/
+  background: orange;
+  /*добавляем фон всему меню*/
+  height: 50px;
+  /*задаем высоту*/
+}
+
+a {
+  text-decoration: none;
+  /*убираем подчеркивание текста ссылок*/
+  background: orange;
+  /*добавляем фон к пункту меню*/
+  color: #fff;
+  /*меняем цвет ссылок*/
+  padding: 0px 15px;
+  /*добавляем отступ*/
+  font-family: arial;
+  /*меняем шрифт*/
+  line-height: 50px;
+  /*ровняем меню по вертикали*/
+  display: block;
+  border-right: 1px solid #F36262;
+  /*добавляем бордюр справа*/
+}
+
+a:hover {
+  background: #D43737;
+  /*добавляем эффект при наведении*/
+}
+
+li {
+  float: left;
+  /*Размещаем список горизонтально для реализации меню*/
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
+footer{
+    background: orange;
+}
+main{background: orange;}
+header{
+    background: orange;
+}
